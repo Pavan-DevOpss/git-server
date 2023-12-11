@@ -1,0 +1,30 @@
+REPOSITARY:-
+-----------
+=>REPOSITARY is nothing but a directory or folder.initially it is folder , after doing "Git Init" command , it act as Repositary.In short we say Repositary is totality of the history of software project.
+
+Local Repositary:-
+-----------------
+=> A Source code Comes under the local repositary,then we can say that the code is under versioning.(tracking by git)
+
+to add all files in from working area to staging area:-
+------------------------------------------------------
+
+=>git add .
+=>git add *
+
+if you want to add particular extension files
+---------------------------------------------
+
+=>git add *.js
+
+if you want to add only one particular file
+------------------------------------------------
+=>git add filename
+
+if you want to commit some files only to local repo:-
+---------------------------------------------------
+=> git commit -m "fc" fn1 fn2
+if you want to see files are in local repo
+----------------------------------------------
+=>git ll
+
